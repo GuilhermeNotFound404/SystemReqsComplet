@@ -1,0 +1,47 @@
+unit Marca;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Param,
+  FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
+  FireDAC.Stan.Async, FireDAC.DApt, FMX.ListView.Types,
+  FMX.ListView.Appearances, FMX.ListView.Adapters.Base, FMX.StdCtrls, FMX.Edit,
+  FMX.Controls.Presentation, FMX.ListView, FMX.TabControl, FMX.Layouts, Data.DB,
+  FireDAC.Comp.DataSet, FireDAC.Comp.Client;
+
+type
+  TForm4 = class(TForm)
+    FDQuery1: TFDQuery;
+    Layout2: TLayout;
+    TabControl1: TTabControl;
+    TabItem1: TTabItem;
+    ListView1: TListView;
+    TabItem2: TTabItem;
+    Label1: TLabel;
+    EditNome: TEdit;
+    Gravar: TButton;
+    Button2: TButton;
+    ToolBar1: TToolBar;
+    Layout1: TLayout;
+    searchEdit: TEdit;
+    addNewTypeButton: TButton;
+    searchButton: TButton;
+    backButton: TButton;
+    searchLabel: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.fmx}
+
+end.
